@@ -1,0 +1,8 @@
+<!--pages/show/show.wxml-->
+<view class="title">展示页面</view>
+<view class="container">
+	<image src="{{user.avatarUrl}}"></image>
+	<text bindtap="show">{{user.nickName}}</text>
+	<text>{{user.gender==1?'帅哥':'美女'}}</text>
+	
+</view>
